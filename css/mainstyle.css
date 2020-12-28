@@ -1,0 +1,21 @@
+
+@import url("header.css");
+@import url("latestposts.css");
+@import url("hero.css");
+@import url("footer.css");
+@import url("subscribe.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+.container{
+      display: grid;
+      grid-template-areas: 
+      "hd"
+      "sec"
+      "art"
+      "subs"
+      "ft";
+  }

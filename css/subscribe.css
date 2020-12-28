@@ -1,0 +1,46 @@
+.subscribe {
+    grid-area: subs;
+    background-color: #d8cacae0;
+    font-size: medium;
+}
+
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 20%;
+    height: auto;
+    font-size: 25px;
+}
+
+.subscribe form input {
+    padding: 10px;
+    flex: 1;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #8C074D;
+    width: 100%;
+  }
+
+  .subscribe form textarea {
+    padding: 10px;
+    flex: 1;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #8C074D;
+    width: 100%;
+  }
+
+  .subscribe button {
+      padding:10px;
+      font-size: 15px;
+      margin-bottom: 10px;
+  }
+
+  .subscribe button:hover{
+      background-color: #8C074D;
+      color: #9EA78E;
+  }

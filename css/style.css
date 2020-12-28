@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(151, 167, 182);
+}
+
+.nav{
+    background-image: url(../images/rauch.jpg);
+    background-size: cover;
+}

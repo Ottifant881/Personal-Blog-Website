@@ -1,0 +1,18 @@
+footer{
+    grid-area: ft;
+    background-color:#9EA78E;
+    text-align: center;
+    padding: 15px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0em;
+}
+
+img {
+    width: 25px;
+    height: auto;
+}

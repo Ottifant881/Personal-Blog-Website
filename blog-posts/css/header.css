@@ -1,0 +1,51 @@
+.main-header{
+    grid-area: hd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+    background-color: #EFCFCE;
+}
+
+header a { color: #5C7C64;
+    text-decoration: none;
+
+}
+header a:hover {
+    opacity: 1;
+    font-weight: 900;
+    text-decoration: none;
+    color:  #8C074D;
+    cursor: pointer;
+  }
+nav {
+    list-style: none ;
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+    padding: 0 1em;
+   
+}
+
+nav a { color: #5C7C64;
+        text-decoration: none;
+
+}
+
+
+nav a::before {
+    content: '';
+    display: block;
+    background: #8C074D;
+    height: 3px;
+    width: 0;
+    top: 0;
+    transition: all 1s ease-in-out 3ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+
